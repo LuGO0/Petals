@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Petals</string>
+    <string name="close">Close</string>
+    <string name="open">Open</string>
+    <string name="msg_token_fmt">Idonknowwhattodo</string>
+    <string name="title_activity_event2">EventActivity2</string>
+</resources>

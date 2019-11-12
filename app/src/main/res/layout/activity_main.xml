@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    >
+
+    <!-- Layout for a list of earthquakes -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/nav_host_activity"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom ="40dp"
+                android:paddingRight="40dp"
+                android:paddingLeft="40dp"
+                android:background="#FFF0C24F"
+                android:layout_marginBottom="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="# COMMUNITY EVENTS"
+                    android:layout_gravity="left"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:paddingTop ="20dp" />
+
+                <TextView
+                    android:id="@+id/no_of_events"
+                    android:layout_gravity="left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="05"
+                    android:textColor="#000000"
+                    android:textSize="50sp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom ="40dp"
+            android:paddingRight="40dp"
+            android:paddingLeft="40dp"
+            android:background="#FFF0C24F">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="# COMMUNITY USERS"
+                android:layout_gravity="left"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:paddingTop ="20dp" />
+
+            <TextView
+                android:id="@+id/no_of_posts"
+                android:layout_gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="03"
+                android:textColor="#000000"
+                android:textSize="50sp"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom ="40dp"
+                android:paddingRight="40dp"
+                android:paddingLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="#FFF0C24F">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="# HAPPY CUSTOMERS"
+                    android:layout_gravity="left"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:paddingTop ="20dp" />
+
+                <TextView
+                    android:id="@+id/no_of_customers"
+                    android:layout_gravity="left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="01"
+                    android:textColor="#000000"
+                    android:textSize="50sp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_drawer_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navigation_drawer_menu"
+        app:headerLayout="@layout/navigation_drawer_header"/>
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+

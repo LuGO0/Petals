@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:background="#FFF0C24F">
+        <TextView
+            android:id="@+id/label"
+            android:layout_margin="10dp"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:text="STATUS OF THE CONNECTION HERE:"/>
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dip"
+            android:text="BT"
+            android:textSize="40sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginBottom="20dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:paddingLeft="4.0dip"
+        android:paddingTop="5.0dip"
+        android:paddingRight="4.0dip"
+        android:paddingBottom="1.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFF0C24F">
+
+        <Button
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="START"
+            android:textSize="35sp"
+            android:textColor="#fff"
+            android:id="@+id/start_button"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:background="#FFF0C24F"/>
+
+        <Button
+            android:gravity="center"
+            android:text="STOP"
+            android:textSize="35sp"
+            android:textColor="#fff"
+            android:id="@+id/stop_button"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="#FFF0C24F"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

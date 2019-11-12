@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/event_name_label"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"
+            android:text="EVENT NAME" />
+
+        <EditText
+            android:id="@+id/event_name_value"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/time_label"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"
+            android:text="TIME" />
+
+        <EditText
+            android:id="@+id/time_value"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/date_label"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"
+            android:text="DATE" />
+
+        <EditText
+            android:id="@+id/date_value"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/location_label"
+            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_margin="10dp"
+            android:text="LOCATION" />
+
+        <EditText
+            android:id="@+id/location_value"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_margin="10dp"
+
+        android:id="@+id/new_event_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE NEW EVENT" />
+</LinearLayout>
